@@ -1,0 +1,907 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-size: 5rem;
+}
+.side1 {
+  position: absolute;
+  width: 701px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #eeedfe;
+}
+.logo {
+  position: absolute;
+  width: 128.87px;
+  height: 163px;
+  left: 120px;
+  top: 14px;
+}
+.med {
+  position: absolute;
+  width: 501px;
+  height: 106px;
+  left: 141px;
+  top: 252px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+
+  color: #b8a4eb;
+}
+.line {
+  position: absolute;
+  width: 117px;
+  height: 0px;
+  left: 195px;
+  top: 415px;
+
+  border: 5px solid #b8a4eb;
+  box-shadow: inset 0px -6px 4px rgba(255, 255, 255, 0.25);
+}
+.docImg {
+  position: absolute;
+  width: 701px;
+  height: 480px;
+  left: -8px;
+  top: 547px;
+
+  box-shadow: inset -20px 4px 144px rgba(229, 229, 229, 0.15);
+}
+.signIn {
+  position: absolute;
+  width: 70px;
+  height: 23px;
+  left: 1230px;
+  top: 52px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  /* purple */
+
+  color: #6e3fea;
+}
+.getStarted {
+  position: absolute;
+  width: 236px;
+  height: 50px;
+  left: 937px;
+  top: 260px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.par1 {
+  position: absolute;
+  width: 405px;
+  height: 84px;
+  left: 2.5px;
+  top: 0px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #4a4a4a;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+
+  position: absolute;
+  width: 490px;
+  height: 308px;
+  left: 810px;
+  top: 350px;
+
+  background: #ffffff;
+  border: 2px solid #f7f7f7;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.par2 {
+  position: absolute;
+  width: 410px;
+  height: 84px;
+  left: 0px;
+  top: 100px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #4a4a4a;
+}
+.sign-box {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 900px;
+  top: 658px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  text-align: center;
+}
+.sign-txt {
+  position: absolute;
+  width: 73px;
+  height: 24px;
+  left: 119px;
+  top: -7px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.reg {
+  position: absolute;
+  width: 193px;
+  height: 18px;
+  left: 958px;
+  top: 739px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 0px 24px;
+}
+.blue {
+  color: #6e3fea;
+}
+.learn {
+  position: absolute;
+  width: 80px;
+  height: 18px;
+  left: 1014.5px;
+  top: 780px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.line2 {
+  position: absolute;
+  width: 45px;
+  height: 0px;
+  left: 1031.5px;
+  top: 818px;
+
+  border: 2px solid #878787;
+}
+.foot {
+  position: absolute;
+  width: 1340px;
+  height: 63px;
+  left: 0px;
+  top: 1024px;
+
+  background: #f7f7f7;
+}
+.icons {
+  position: absolute;
+  width: 207px;
+  height: 16px;
+  left: 85px;
+  top: 24px;
+}
+.fa {
+  margin-left: 17.89px;
+
+  color: #000000;
+}
+.date {
+  position: absolute;
+  width: 91px;
+  height: 17px;
+  left: 1223px;
+  top: 23px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+/*page 2 or sigin in page*/
+.signUp {
+  position: absolute;
+  width: 84px;
+  height: 23px;
+  left: 1221px;
+  top: 52px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  /* purple */
+
+  color: #6e3fea;
+}
+.signIn-Txt {
+  position: absolute;
+  width: 139px;
+  height: 50px;
+  left: 1006px;
+  top: 280px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.UserName {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 915px;
+  top: 410px;
+
+  background: #ffffff;
+  border: 1px solid #6e3fea;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding-left: 14px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #c0c0c0;
+}
+.Password {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 915px;
+  top: 479px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 14px;
+}
+.Lock {
+  position: absolute;
+  left: 1197px;
+  top: 493px;
+  font-size: 16px;
+  color: #b5b5b5;
+}
+
+.sign-in-box {
+  left: 915px;
+  top: 548px;
+}
+.google-box {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 915px;
+  top: 635px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.google-icon {
+  position: absolute;
+  width: 20px;
+  height: 21px;
+  left: 21px;
+  top: 13px;
+}
+.Log-in-google {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  top: -11px;
+  left: 72px;
+  width: 171px;
+  color: #000000;
+}
+.reg-2 {
+  position: absolute;
+  width: 199px;
+  height: 18px;
+  left: 953px;
+  top: 703px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+}
+.learn-container {
+  position: absolute;
+
+  left: 40px;
+  top: -30px;
+}
+/*New page (user sign up page)*/
+.UserButton {
+  display: flex;
+  flex-direction: column;
+  padding: 11px 57px;
+
+  position: absolute;
+  width: 132.15px;
+  height: 46px;
+  left: 803px;
+  top: 224px;
+
+  background: rgba(110, 63, 234, 0.6);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.UserText {
+  position: static;
+  width: 45px;
+  height: 24px;
+  left: 43.57px;
+  top: 11px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.6);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+.DoctorButton {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+
+  position: absolute;
+  width: 151.26px;
+  height: 46px;
+  left: 960.91px;
+  top: 224px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.DoctorText {
+  position: static;
+  width: 67px;
+  height: 24px;
+  left: 42.13px;
+  top: 11px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+.ChemistButton {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+  position: absolute;
+  width: 161.23px;
+  height: 46px;
+  left: 1138.77px;
+  top: 224px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.ChemistText {
+  position: static;
+  width: 81px;
+  height: 24px;
+  left: 40.12px;
+  top: 11px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+.PharmacyButton {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+
+  position: absolute;
+  width: 176.19px;
+  height: 46px;
+  left: 857.85px;
+  top: 287.99px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.PharmacyText {
+  position: static;
+  width: 98px;
+  height: 24px;
+  left: 39.1px;
+  top: 11px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+.Medical-labButton {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  position: absolute;
+  width: 184.51px;
+  height: 44px;
+  left: 1060.64px;
+  top: 287.99px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.Medical-labText {
+  position: static;
+  width: 107px;
+  height: 24px;
+  left: 38.75px;
+  top: 10px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+.user-sign-up {
+  position: absolute;
+  width: 189px;
+  height: 38px;
+  left: 983px;
+  top: 393px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.user-userName {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 921px;
+  top: 492px;
+
+  background: #ffffff;
+  border: 1px solid #6e3fea;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.user-e-mail {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 922px;
+  top: 561px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.user-phone {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 922px;
+  top: 630px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.user-language {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 922px;
+  top: 699px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.down {
+  position: absolute;
+  font-size: 31px;
+
+  left: 1196.99px;
+  top: 703.61px;
+
+  color: #6e3fea;
+}
+.User-google-box {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 922px;
+  top: 780px;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.user-Log-in-google {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  /* identical to box height */
+
+  position: absolute;
+
+  left: 73px;
+  top: -12px;
+}
+.sign-in-user {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 922px;
+  top: 847px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.doctor-sign-up {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 960px;
+  top: 396px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.DoctorButton-M {
+  background: rgba(110, 63, 234, 0.6);
+  
+}
+.UserButton-p {
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Doctor-years {
+  position: absolute;
+  width: 135px;
+  height: 47px;
+  left: 918px;
+  top: 633px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #c0c0c0;
+}
+.doctor-phone {
+  position: absolute;
+  width: 153px;
+  height: 47px;
+  left: 1073px;
+  top: 633px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.doctor-location {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 922px;
+  top: 771px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.Doctor-google-box {
+  position: absolute;
+  width: 310px;
+  height: 47px;
+  left: 916px;
+  top: 852px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.sign-in-Doctor {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 915px;
+  top: 919px;
+
+  background: #6e3fea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+/*new page (medical lab )*/
+.Medica-lab-sign-up {
+  position: absolute;
+  width: 296px;
+  height: 38px;
+  left: 877px;
+  top: 399px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.Lab-userName {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 872px;
+  top: 478px;
+
+  background: #ffffff;
+  border: 1px solid #6e3fea;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.Lab-e-mail {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 872px;
+  top: 547px;
+  border: 0px solid #6e3fea;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.Lab-Phone {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 872px;
+  top: 616px;
+  border: 0px solid #6e3fea;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.Lab-Location {
+  position: absolute;
+  width: 311px;
+  height: 47px;
+  left: 872px;
+  top: 685px;
+  border: 0px solid #6e3fea;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+}
+.Lab-google-box{
+  position: absolute;
+width: 311px;
+height: 47px;
+left: 872px;
+top: 786px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.11);
+border-radius: 12px;
+}
+.sign-in-Lab{
+  position: absolute;
+width: 311px;
+height: 47px;
+left: 868px;
+top: 853px;
+
+background: #6E3FEA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+/*new page pharmacy*/
+.pharma-sign-up{
+  position: absolute;
+width: 271px;
+height: 38px;
+left: 915px;
+top: 399px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
